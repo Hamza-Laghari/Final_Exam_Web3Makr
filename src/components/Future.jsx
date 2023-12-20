@@ -20,9 +20,14 @@ function Future() {
           <Container>
             <Row>
               <Col sm={12} md={12} lg={4}>
-                <h3 style={{ marginBottom: "3rem" }}>Multichain</h3>
-                <h3 style={{ marginBottom: "3rem" }}>Dashboard</h3>
-                <h3>Tool</h3>
+               <button style={{ marginBottom: "3rem",  border: '2px solid #007BFF', // Change color and width as needed
+    borderRadius: '8px', }} >Multichain </button> 
+               <br/>
+                <button style={{ marginBottom: "3rem", border: '2px solid #007BFF', // Change color and width as needed
+    borderRadius: '8px', }}>Dashboard </button>
+                <br/>
+                <button style={{ marginBottom: "3rem",  border: '2px solid #007BFF', // Change color and width as needed
+    borderRadius: '8px', }}>Tool</button>
               </Col>
               <Col sm={12} md={12} lg={8}>
                 <div className="images">
