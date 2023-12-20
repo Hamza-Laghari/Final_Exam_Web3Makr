@@ -19,6 +19,9 @@
   font-size: 16px;
   font-weight: 400;
 }
+.hero-bg {
+  background: linear-gradient(to right, #168ab7, #865b30, #5a3f75);
+}
 
 .herosection {
   color: white;
